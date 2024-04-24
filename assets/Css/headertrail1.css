@@ -1,0 +1,985 @@
+
+/* .image1border>img{
+
+}
+.image1border>p{
+
+}
+.image1border>h3{
+
+} */
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: gray; */
+    font-family: sans-serif;
+
+   
+}
+
+.backgroundimage{
+    background-image:url(/assets/uploads/images/india-hyderabad-metro-rail.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.flx{
+  display: flex;
+  gap: 10px;
+  
+}
+.contimg{
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.contimg1{
+  /* android pic */
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.contimg2{
+  /* android pic */
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.number{
+  margin-top: 10px;
+}
+.contact{
+  margin-top: 8px;
+}
+.aimg{
+  width: 30px;
+  height: 30px;  
+}
+.contact1{
+  margin-top: 8px;
+  margin-left: 400px;
+  font-size: 15px;
+}
+/* .vline{ 
+    border-left: 3px solid black;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 20px;
+}  */
+.arrange{
+    display: flex;
+    margin-top: 15px;
+    /* opacity: 1px; */
+}
+.logo{
+    width: 180px;
+    /* height: 140px; */
+/* margin-left: 190px; */
+/* padding-top: 10px; */
+position: absolute;
+top: 5px;
+}
+ul li {
+    display: inline;
+    margin-left: 5px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.navarrange{
+    padding-top:36px;
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    /* right: 100px; */
+    left: 260px;
+    /* padding-left: 50px; */
+    background-color:rgb(2, 2, 11);
+    margin-top: 15px;
+    padding-top: 10px ;
+    
+}
+
+/* extra */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+    /* background-color: #fff; */
+    /* box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3); */
+    position: relative;
+    padding: 0px 30px;
+    /* background-color: #fff; */
+    background-image:url(/assets/uploads/images/metro\ station\ inner.jpeg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    
+  }
+  /* .navbar-logo {
+    color: #ff3f34;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 20px;
+  } */
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+  }
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    /* color:white; */
+    padding: 20px 20px;
+    font-weight: 700;
+    transition: 0.4s all;
+  }
+  
+  .navbar-links li.navbar-dropdown {
+    position: relative;
+  }
+  
+  .navbar-links li.navbar-dropdown:hover .dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  
+  .navbar-links li.navbar-dropdown .dropdown {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    /* padding: 20px 0; */
+    /* top: 100%; */
+    transform: translateY(50px);
+    left: 0;
+    width: 200px;
+    /* background-color: #fff; */
+    box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 111;
+    transition: 0.4s all;
+  }
+  .navbar-links li.navbar-dropdown .dropdown a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .navbar-dropdown .dropdown a:hover {
+    padding-left: 30px;
+  }
+  .navbar-links li a:hover {
+    color:blue;
+  }
+
+  #home{
+    background-color: blue;
+  }
+  .button{
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* body */
+
+  .h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-left: 510px;
+    padding-top: 40px;
+  }
+
+  .iconflex{
+      display:flex;
+       margin-left: 180px; 
+  }
+  
+  .image1border{
+    border: 1px solid black;
+    margin-left: 30px;
+    /* margin-right:1420px; */
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 10px; */
+    border-radius: 50%;
+  }
+  .image2border{
+  border: 1px solid black;
+    /* margin-left: -200px; */
+    /* margin-right:1420px; */
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 40px; */
+    border-radius: 50%;
+
+  }
+  .image3border{
+    border: 1px solid black;
+    /* margin-left: -400px; */
+    /* margin-right:1420px; */
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    justify-content: center;
+    /* padding-top: 40px; */
+    border-radius: 50%;
+  }
+  .image4border{
+    border: 1px solid black;
+    margin-left: 80px;
+    /* margin-right:1420px; */
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* padding-top: 40px; */
+    /* margin-right: 800px; */
+  }
+  
+    
+    
+    
+  .textmargin1{
+      margin-left: 20px;
+    margin-right:490px;
+    }
+    .textmargin2{
+      margin-left: -400px;
+    margin-right:490px;
+    }
+    .textmargin3{
+      margin-left: -400px;
+      margin-right:490px;
+    }
+    .textmargin4{
+      margin-left: -450px;
+    margin-right:490px;
+    }
+
+
+
+
+
+    .h3text1{
+      margin-left: 70px;
+    margin-right:10px;
+    }
+    .h3text2{
+      margin-left: 15px;
+    margin-right:10px;
+    }
+    .h3text3{
+      margin-left: 15px;
+    margin-right:10px;
+    }
+    .h3text4{
+      margin-left: 80px;
+    margin-right:10px;
+    }
+
+    .texti{
+      margin-left: 70px;
+    }
+    .h3textsub{
+      margin-left: 60px;
+    margin-right:10px;
+    }
+    
+
+    
+
+    .image1{
+      width: 50px;
+      height: 50px;
+      margin: 40px;
+      background-color: blue;
+      
+    }
+  
+  .image2{
+     width: 50px;
+    height: 50px;
+    margin: 40px;
+ background-color: blue;
+  }
+  .image3{
+    width: 50px;
+    height: 50px;
+   margin: 40px;
+   background-color: blue;
+  }
+
+  .image4{
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    background-color: blue;
+  }
+/* .img:hover{
+  background-color: blue; */
+/* } */
+.smartcard{
+  padding-left: 500px;
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.smartcard1{
+  margin-left: 400px;
+  width: 500px;
+  height: 280px;
+  margin-top: 40px;
+}
+.textarrange{
+  padding-left: 500px;
+  padding-top: 40px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.hr{
+  width: 100px;
+  height: 3px;
+  background-color: rgb(8, 114, 185);
+  margin-left: 605px;
+  margin-top: 15px;
+  
+}
+.iconflex1{
+  display:flex;
+   margin-left: 180px; 
+}
+
+.viewbutton{
+  width: 200px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 200px;
+  font-size: 20px;
+  /* margin-top: 40px; */
+}
+
+.rechargebutton{
+  width: 250px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  /* margin-top: 40px; */
+}
+
+
+
+ .imageparagraph{
+  padding-top: 50px;
+  padding-right: 100px;
+  margin-left: 20px;
+  color: white;
+  
+}
+.optionbox{
+  padding: 8px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border: 3px double black;
+}
+.explore{
+  padding: 8px;
+  margin-left: 40px;
+  margin-top: 30px;
+  border: 3px solid black;
+  width: 120px; background-color: greenyellow;
+}
+
+
+.station{
+  background-image: url(/assets/uploads/images);
+  width: 1000px;
+  height: 600px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-size: cover;
+  padding-top: 20px;
+  /* padding-left: 200px; */
+  /* padding-right: 100px; */
+  /* position: relative; */
+  
+}
+.backgroundcolor{
+  background-color: blue;
+  height: 500px;
+  margin-left: 20px;
+}
+.metromap{
+  width: 500px;
+  height: 500px;
+  margin-top: -300px;
+  /* position: absolute; */
+  /* top: 1888px;
+  left: 720px; */
+  margin-left: 600px;
+}
+.travelform{
+  /* margin-top: 100px; */
+  margin-top: 200px;
+}
+
+/* footer */
+hr{
+  width: 30px;
+  padding-left: 130px;
+  margin: 2px;
+}
+
+.footerline{
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 100px; */
+  /* align-items: center; */
+  
+}
+
+.imgg{
+  width: 100px;
+  margin-right: 20px;
+  
+}
+/* ul li a{
+  text-decoration: none;
+  color:white;
+  padding-left: 50px;
+  font-size: 17px;
+align-items: center;
+  
+} */
+.margin{
+   margin-top: 20px;
+  background-color: rgb(18, 120, 222);
+  width: 100%; 
+  height: 400px;
+}
+.ul1{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 140px;
+  margin-left: 10px;
+  padding-left: 20px;
+  text-decoration: none;
+    color:white;
+    /* padding-left: 5px; */
+    font-size: 17px;
+}
+.ul2{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 140px;
+  margin-left: 1px;
+  /* padding-left: 10px; */
+  text-decoration: none;
+    color:white;
+    /* padding-left: 5px; */
+    font-size: 17px;
+
+}
+.ul3{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 220px;
+  padding-left: 20px;
+  text-decoration: none;
+    color:white;
+    padding-left: 5px;
+    font-size: 17px;
+
+}
+.ul4{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 135px;
+  padding-left: 5px;
+  text-decoration: none;
+    color:white;
+    /* padding-left:1px; */
+    font-size: 17px;
+
+}
+.ul5{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 250px;
+  padding-left: 200px;
+  text-decoration: none;
+    color:white;
+    padding-left: 5px;
+    font-size: 17px;
+    padding-right: 110px;
+    padding-top: 100px;
+
+}
+.ul6{
+  margin-top: 15px;
+  list-style-type:none;
+  width: 240px;
+  padding-left: 500px;
+  text-decoration: none;
+    color:white;
+    padding-left: 5px;
+    font-size: 17px;
+
+}
+h2{
+  color: white;
+  padding-left: 20px;
+}
+
+
+/* header responsive */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>tablet view<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>header */
+
+@media screen and (min-width:426px) and (max-width:768px){
+header{
+  display: none;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  /* width: 100vw; */
+  /* background-color: #fff; */
+  /* box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3); */
+  /* position: relative; */
+  /* padding: 0px 50px; */
+  /* background-color: #fff; */
+  /* background-image:url(/assets/uploads/images/india-hyderabad-metro-rail.jpg); */
+  /* width: 100%; */
+  height: 628px;
+  background-size: cover;
+  width: 1422px;
+}
+.logo{
+  width: 220px;
+  /* height: 140px; */
+/* margin-left: 190px; */
+/* padding-top: 10px; */
+position: absolute;
+top: 5px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>body */
+
+.h1{
+font-family: sans-serif;
+width: 1100px;
+padding-top: 80px;
+font-size: 70px;
+padding-left: 490px;
+} 
+.textarrangeimg{
+  display: none;
+}
+.imgtext{
+  padding-left:130px;
+  display: none;
+
+}
+.imgtext1{
+  padding-left:130px;
+  display: none;
+}
+.imgtext2{
+  padding-left:160px;
+  display: none;
+}
+
+.paragraph1{
+  padding-left: 110px;
+  display: none;
+}
+.paragraph2{
+  padding-left: 60px;
+  display: none;
+}
+.paragraph3{
+  padding-left: 40px;
+  display: none;
+}
+
+
+
+.smartcard{
+  width: 1100px;
+  padding-top: 80px;
+  font-size: 70px;
+  padding-left: 440px;
+
+
+}
+.smartcard1{
+  margin-left: 500px;
+  width: 500px;
+  height: 280px;
+  margin-top: 40px;
+}
+
+.hr{
+  width: 100px;
+  height: 3px;
+  background-color: rgb(8, 114, 185);
+  margin-left: 705px;
+  margin-top: 15px;
+}
+
+.iconflex1{
+  display:block;
+  /* margin-left: 400px; */
+}
+
+.viewbutton{
+  width: 200px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 310px;
+  font-size: 20px;
+  /* margin-top: 40px; */
+}
+
+.rechargebutton{
+  width: 200px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 140px;
+  padding-top: 20px;
+  padding-right: 120px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  margin-left: 110px;
+  font-size: 20px;
+ position: relative;
+ left: 500px;
+ top: -68px;
+  /* margin-top: 40px; */
+}
+@media screen and (min-width:426px) and (max-width:767px){
+  
+
+
+}
+.textarrange{
+  font-family: sans-serif;
+width: 1100px;
+padding-top: 80px;
+font-size: 70px;
+padding-left: 450px;
+
+
+
+}
+.station{
+  background-image: url(/assets/uploads/images/METRO\ station.jpg); 
+  width: 1200px;
+  height: 600px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-size: cover;
+  padding-top: 20px;
+  /* padding-left: 200px; */
+  padding-right: 100px;
+  /* position: relative; */
+  
+}
+
+.backgroundcolor{
+  background-color: blue;
+  height: 250px;
+  width: 100%;
+}
+.imageparagraph{
+  padding-top: 50px;
+  padding-right: 100px;
+  margin-left: 20px;
+  color: white;
+  
+}
+/* .metromap{
+  width: 1420px;
+  height: 1000px;
+  margin-top: 300px;
+  /* position: absolute; */
+  /* top: 1888px;
+  left: 720px; */
+  /* margin-left:-110px; */
+/* } */ 
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer */
+
+.margin{
+  margin-top: 100px;
+ background-color: rgb(18, 120, 222);
+ width: 100px; 
+ height: 350px;
+}
+
+.footerline{
+  background-color: rgb(20, 82, 237);
+  display: flex;
+  justify-content: space-evenly;
+  width: 1422px;
+  /* width: 100px; */
+  /* align-items: center; */
+  
+}
+
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>mobile view<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* header */
+
+@media screen and (max-width:426px){
+  .navbar{
+    width: 1420px;
+  }
+  .h1{
+    padding-left: 100px;
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+  /* margin-left: 200px; */
+  position: relative;
+  left: 490px;
+  }
+  .smartcard{
+  padding-left: 100px;
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+  /* margin-left: 200px; */
+  position: relative;
+  left: 490px;
+}
+.textarrange{
+  padding-left: 100px;
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+  /* margin-left: 200px; */
+  position: relative;
+  left: 490px;
+}
+.station{
+  background-image: url(/assets/uploads/images/METRO\ station.jpg);
+  width: 1000px;
+  height: 600px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-size: cover;
+  padding-top: 20px;
+  /* padding-left: 200px; */
+  padding-right: 100px;
+  /* position: relative; */
+  
+}
+.textmargin2{
+  display: block;
+}
+.margin{
+  margin-top: 20px;
+ background-color: rgb(18, 120, 222);
+ width: 1250px; 
+ height: 400px;
+}
+.smartcard1{
+  margin-left: 500px;
+  width: 500px;
+  height: 280px;
+  margin-top: 40px;
+}
+.viewbutton{
+  width: 200px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 310px;
+  font-size: 20px;
+  /* margin-top: 40px; */
+}
+
+.rechargebutton{
+  width: 200px;
+  /* height: 10px; */
+  /* padding-left: 20px; */
+  padding: 140px;
+  padding-top: 20px;
+  padding-right: 120px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  margin-left: 110px;
+  font-size: 20px;
+ /* position: relative; */
+ /* top: -68px; */
+  /* margin-top: 40px; */
+}
+.footerline{
+  background-color: rgb(20, 82, 237);
+  display: flex;
+  justify-content: space-evenly;
+  width: 1422px;
+  height: 450px;
+  /* width: 100px; */
+  /* align-items: center; */
+  
+}
+header{
+  display: none;
+}
+
+}
+@media screen  and (min-width:769px) and (max-width:1025px){
+  .contimg{
+    width: 30px;
+    height: 30px;
+    margin-left: 0px;
+}
+.contimg{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+.contact1{
+    margin-top: 8px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+  
+  
+  .navbar{
+    width: 1350px;
+  }
+  
+  
+  .backgroundcolor{
+    background-color: blue;
+    height: 250px;
+    width: 600px;
+  }
+  .imageparagraph{
+    padding-top: 50px;
+    padding-right: 100px;
+    margin-left: 200px;
+    color: white;
+    
+  }
+  .iconflex{
+    display:flex;
+     margin-left: 150px; 
+    
+  }
+  .textmargin1{
+    margin-left: 100px;
+
+  }
+
+
+  .backgroundcolor{
+    padding-left: 20px;
+  }
+
+
+.station{
+  /* background-image: url(/assets/uploads/images/METRO\ station.jpg); */
+  width: 1200px;
+  height: 600px;
+  margin-left: 70px;
+  margin-top: 20px;
+  background-size: cover;
+  padding-top: 20px;
+  /* padding-left: 200px; */
+  padding-right: 100px;
+  /* position: relative; */
+  
+}
+.margin{
+  background-size: cover;
+}
+.margin{
+  margin-top: 100px;
+ /* background-color: rgb(18, 120, 222); */
+ width: 1350px; 
+ height: 350px;
+}
+/* .metromap{
+  width: 600px;
+  height: 600px;
+  margin-top: -318px;
+  /* position: absolute; */
+  /* top: 1888px;
+  left: 720px; */
+  /* margin-left: 300px; */
+/* } */
+
+.metromap{
+  width: 600px;
+  height: 600px;
+  margin-top: -250px;
+  /* position: absolute; */
+  /* top: 1888px;
+  left: 720px; */
+  margin-left: 550px;
+}
+
+/* ffffffffffffffffffffff */
+.imageparagraph{
+  padding-top: 10px;
+  padding-right: 100px;
+  margin-left: 20px;
+  color: white;
+  background-color:blue;
+  width: 500px;
+  
+}
+.station{
+  background-image: url(/assets/uploads/images/metro\ station\ outer.jpeg);
+  width: 900px;
+  height: 600px;
+  margin-left: 10px;
+  margin-top: 20px;
+  /* background-size: cover; */
+  padding-top: 20px;
+  /* padding-left: 200px; */
+  padding-right: 100px;
+  /* position: relative; */
+}
+
+}

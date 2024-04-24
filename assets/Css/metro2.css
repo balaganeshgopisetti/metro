@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* text-decoration: none; */
+    box-sizing: border-box;
+    
+}
+.backg{
+  background-image: url(/assets/uploads/images/delhi\ metro.webp);
+  height: 500px;
+}
+         
+        
+
+
+.bg-container{
+   background-image: url("/assets/uploads/images/delhi\ metro.webp ");
+   background-repeat: no-repeat;
+   height: 60vh;
+   background-position: center;
+   text-align:center;
+}
+.banner{
+    width: 100%;
+}
+
+/* .bg-container{
+    background-image: url("/assets/uploads/images/hrm.jpg");
+}
+.container{
+    background-image: url("/assets/uploads/images/gree_metro.jpg");
+} */
+
+.manoj{
+    text-align: start;
+    /* padding-top: 200px; */
+    color:white;
+    margin-left: 80px;
+    padding-top: 350px;
+}
+
+.manoj2{
+    text-align: start;
+    padding-top: 10px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+.image-flex{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 20PX;
+
+}
+
+.metro{
+text-align: center;
+font-size: medium;
+
+}
+
+.raliways{
+margin-left: 80px;
+margin-top: 30px;
+
+}
+.metro2{
+
+margin-left: 10px;
+
+}
+
+@media screen and (min-width:769px) and (max-width:1025px) {  
+
+
+.bg-container>h1{
+    padding-top: 100px;
+    
+}
+.manoj{
+    text-align: start;
+    /* padding-top: 200px; */
+    color:white;
+    margin-left: 80px;
+    position: absolute;
+    top: 50px;
+}
+.manoj2{
+    position: absolute;
+    top: 450px;
+    margin-left: 80px;
+}
+
+}
+  
+
+@media screen and (min-width:426px) and (max-width:769px){
+
+    .manoj{
+        text-align: start;
+        /* padding-top: 200px; */
+        color:white;
+        margin-left: 80px;
+        position: absolute;
+        top: 50px;
+    }
+    .manoj2{
+        position: absolute;
+        top: 450px;
+        margin-left: 80px;
+    } 
+    .image-flex{
+        display: block;
+    }
+    .metro2{
+        margin-top: 30px;
+        margin-left: 160px;
+    }
+
+
+
+    .metro{
+        text-align: center;
+        font-size: medium;
+        margin-right: 240px;
+    
+        }
+
+
+
+
+
+}
+@media screen and (max-width:426px) {
+    .image-flex{
+        display: block;
+    }
+    .bg-container{
+        background-size: cover;
+    }
+    .bg-container>h1{
+        padding-top: 80px;
+    
+    }
+    .manoj{
+        display: none;
+
+    }
+    .manoj2{
+        display: none;
+    }
+}
+
+
+

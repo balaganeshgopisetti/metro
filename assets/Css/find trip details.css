@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#id1{
+    background-image: url(/assets/uploads/images/ticketing.avif);
+    width: 100%;
+    height: 400px;
+    color: white;
+    padding-top: 1px;
+    padding-left: 90px;
+    color: black;
+    }
+    #id1>p{
+      padding-top:20px;
+    }
+  #id2{
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  #id2>h3{
+    padding-top:20px;
+  } 
+  #id3{
+    padding-top: 30px;
+    padding-left:20px;
+     }
+ #id4{
+    padding-top: 30px;
+    padding-left:40px;
+    } 
+  #id7{
+    display: flex;
+  }
+  
+  #id6{
+    margin-left:50px;
+    width: 200px;
+    height: 40px;
+    background-color: green;
+
+  }  
+  #id8{
+    margin-top: 50px;
+  }
+  .select{
+    width: 300px;
+    height:40px;
+    
+  }
+  .select1{
+    width:300px;
+    height:40px;
+    margin-left: 20px;
+  }
+  .move{
+    padding-left:20px;
+  }
+  #id9{
+    padding-top:50px;
+    padding-left: 40px;
+  }
+  .pavan{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .pavan11{
+    display: flex;
+  }
+  .pavan1{
+    padding-top: 25px;
+  }
+  .pavan12{
+    display:flex;
+    padding-top: 10px;
+  }
+  .pavan2{
+    padding-left: 20px;
+    width: 400px;
+  }
+  .pavan3{
+    padding-top: 5px;
+  }
+  .pavan13{
+   display: flex;
+  }
+  .pavan4{
+    padding-left:20px;
+    width: 400px;
+    padding-top: 10px;
+  }
+  .pavan5{
+    padding-top:15px;
+  }
+  .pavan14{
+    display: flex;
+  }
+  .pavan6{
+    padding-left:20px;
+    width: 400px;
+    padding-top: 10px;
+  }
+  .pavan14{
+    display: flex;
+  }
+  .pavan7{
+    padding-top:15px
+  }
+  #id9{
+    display: flex;
+    }
+    .pavan16{
+      width: 270px;
+    }
+    .pavan15{
+      padding-left: 150px;
+    }
+   .pavan10{
+    width: 100px;
+    height: 40px;
+    /* margin-left: 100px; */
+    justify-content: center;
+   }
+   .pavan10:hover{
+    background-color: blue;
+   }
+   .pavan9{
+    padding-top: 50px;
+    padding-left: 100px;
+   }
+
+ /* laptop */
+ @media screen and (min-width:769px) and (max-width:1025px) {
+  .pavan11{
+    width:300px;
+    padding-top: 5px;
+  }
+  .pavan12{
+    width:300px;
+    padding-top: 15px;
+  }
+  .pavan13{
+    width:300px;
+    padding-top: 15px;
+  }
+  .pavan14{
+    width:300px;
+    padding-top: 15px;
+  }
+  .pavan16{
+    margin-right:-300px;
+    position: absolute;
+    left: 350px;
+    height: 200px;
+    padding-top: 10px;
+    height: 300px;
+  }
+  
+  #id9{
+    padding-top:100px;
+  }
+  .pavan10{
+    margin-top: 250px;
+    width: 200px;
+    height: 40px;
+   }
+   .pavan9{
+    padding-top: 100px;
+   }
+   
+  }
+   /* tab  */
+   @media screen and (min-width:427px) and (max-width:768px) {
+    #id1{
+      width:100%;
+      height: 200px;
+      margin-top:40px;
+      }
+     #id1>h1{
+      margin-top:-150px;
+      padding-top: 80px;
+     }
+    
+     #id1>p{
+      padding-top: 5px;
+     }
+     #id8{
+      padding-top: 100px;
+      position: absolute;
+      right: 350px;
+     }
+     #id4{
+      padding-left: 20px;
+     }
+     #id9{
+      padding-top: 150px;
+     }
+     .pavan16{
+      padding-top: 200px;
+      width: 100%;
+      position: absolute;
+      left: 20px;
+    }
+    .pavan9{
+      padding-top: 1250px;
+      position: absolute;
+      right: 120px;
+    }
+    .pavan2{
+      width: 100%px;
+    }
+    .pavan4{
+      width: 100%;
+    }
+    .pavan6{
+      width: 100%;
+    }
+    .pavan{
+      width: 100%;
+    }
+  }
+
+
+  /* Mobile view */
+
+  @media screen and (min-width:0px) and (max-width:426px)
+   {
+    #id1{
+      width: 100%;
+      height:300px;
+      margin-top:150px;
+    }
+    #id1>h1{
+      margin-top:-99px;
+      padding-top: 70px;
+    }
+    #id1>p{
+      margin-top: 10px;
+    }
+    #id2>h3{
+      margin-top:20px;
+      width: 700px;
+    }
+    #id2>h1{
+      margin-top:60px;
+    }
+    #id7{
+      display: block;
+    }
+    .select{
+      width: 100%;
+      height: 60px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+    #id3>h3{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .select1{
+      width: 100%;
+      height: 60px;
+      margin-left:-10px;
+      margin-top: 20px;
+    }
+    #id4>h3{
+      margin-left:-20px;
+    }
+    #id6{
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+    .pavan16{
+      padding-top: 500px;
+      width: 100%;
+      position: absolute;
+      left: 20px;
+    }
+    .pavan2{
+      width: 100%;
+    }
+    .pavan4{
+      width: 100%;
+    }
+    .pavan6{
+      width: 100%;
+    }
+    .pavan{
+      width: 100%;
+    }
+    .pavan9{
+      padding-top: 980px;
+      position: absolute;
+      right: 100px;
+      color: white;
+      margin-top: 20px;
+    }
+    .font{
+      font-size: 20px;
+    }
+  }
+
+
+
+ 

@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+#id1{
+    background-image:url(/assets/uploads/images/delhi-photos-india-metrostation.jpg);
+    width: 99.9%;
+    height: 350px;
+    padding-top: 0px;
+    padding-left: 40px;
+    color: white;
+}
+
+#id1>p{
+    position: absolute;
+    top: 320px;
+    color: white;
+    }
+#id2{
+    padding-top: 30px;
+    padding-left: 30px;
+   }
+ #id2>p{
+     padding-top: 30px;
+    } 
+
+     table{
+        font-family:arial, sans-serif;
+        border-collapse:collapse;
+        width:99%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      .colors{
+        background-color: blue;
+      }
+      .colors1{
+        background-color: blue;
+      }
+      .colors2{
+        background-color: blue;
+      }
+      .colors3{
+        background-color: blue;
+      }
+      .center{
+        text-align: center;
+        height: 50px;
+        color: blue;
+      }
+      #id2>h1{
+        margin-top: 30px;
+      }
+      #id1>h1{
+        position: absolute;
+    top: 250px;
+    color: white;
+      }
+      #id1>p{
+       color: yellow;
+      }
+      .line{
+        width: 80px;
+        padding-top:5px;
+      }
+
+
+      /* LabTop */
+
+
+      #id1>h1{
+        position: absolute;
+        left:1px;
+      }
+     #id1>p{
+        padding-top:1px;
+        position: absolute;
+        left:1px;
+      }
+     #id2>p{
+        width: 98%;
+     } 
+
+
+     
+     /* Tab  */
+
+     @media  screen and (min-width:426px) and (max-width:769px) 
+     {
+        #id1{
+            height:400px;
+            margin-top: 30px ;
+        }
+        #id1>h1{
+           padding-top:-100px;
+      }
+
+
+      /* Mobile view */
+     @media screen and (min-width:0px) and (max-width:426px) {
+  
+
+      #id1{
+        height:300px;
+        width: 100%;
+        margin-top:20px;
+      }
+      #id1>h1{
+        top: 300px;
+        padding-left: 10px;
+        opacity: 0.2;
+       }
+      #id1>p{
+        position: absolute;
+        top: 270px;
+        padding-left: 10px;
+      
+      }
+      
+    }
+    @media screen and (max-width:1025px) {
+      #id1>h1{
+        position:absolute;
+        top: 300px;
+        padding-left: 20px;
+        
+      }
+      #id1>p{
+        position: absolute;
+        top: 270px;
+        padding-left: 20px;
+      }
+    }
